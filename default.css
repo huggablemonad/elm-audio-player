@@ -1,0 +1,211 @@
+
+body
+{
+  background : #000000;
+  color      : #a6c8d3;
+}
+
+#center-div
+{
+  display         : flex;
+  justify-content : center;
+  margin-top      : 150px;
+}
+
+#main-div
+{
+  background : #2b3235;
+  padding    : 10px 10px 10px 10px;
+  position   : relative;
+  width      : 545px;
+}
+
+#elapsed-time
+{
+  background    : #000000;
+  font-family   : "Orbitron", sans-serif;
+  font-size     : 72px;
+  padding-left  : 24px;
+  padding-right : 24px;
+  padding-top   : 10px;
+  width         : 200px;
+}
+
+#track-title
+{
+  background  : #000000;
+  font-family : "Orbitron", sans-serif;
+  font-size   : 24px;
+  left        : 258px;
+  overflow    : hidden;
+  padding-top : 10px;
+  position    : absolute;
+  top         : 10px;
+  white-space : nowrap;
+  width       : 300px;
+}
+
+#track-title > span
+{
+  display           : inline-block;
+  -webkit-animation : marquee 15.0s linear 0.0s infinite normal none;
+  -moz-animation    : marquee 15.0s linear 0.0s infinite normal none;
+  -ms-animation     : marquee 15.0s linear 0.0s infinite normal none;
+  -o-animation      : marquee 15.0s linear 0.0s infinite normal none;
+  animation         : marquee 15.0s linear 0.0s infinite normal none;
+  padding-left      : 100%;
+}
+
+@-webkit-keyframes marquee
+{
+0.0% 
+{
+  -webkit-transform : translate(0,0);
+  -moz-transform    : translate(0,0);
+  -ms-transform     : translate(0,0);
+  -o-transform      : translate(0,0);
+  transform         : translate(0,0);
+}
+
+100.0% 
+{
+  -webkit-transform : translate(-100%,0);
+  -moz-transform    : translate(-100%,0);
+  -ms-transform     : translate(-100%,0);
+  -o-transform      : translate(-100%,0);
+  transform         : translate(-100%,0);
+}
+
+}
+
+@-moz-keyframes marquee
+{
+0.0% 
+{
+  -webkit-transform : translate(0,0);
+  -moz-transform    : translate(0,0);
+  -ms-transform     : translate(0,0);
+  -o-transform      : translate(0,0);
+  transform         : translate(0,0);
+}
+
+100.0% 
+{
+  -webkit-transform : translate(-100%,0);
+  -moz-transform    : translate(-100%,0);
+  -ms-transform     : translate(-100%,0);
+  -o-transform      : translate(-100%,0);
+  transform         : translate(-100%,0);
+}
+
+}
+
+@-ms-keyframes marquee
+{
+0.0% 
+{
+  -webkit-transform : translate(0,0);
+  -moz-transform    : translate(0,0);
+  -ms-transform     : translate(0,0);
+  -o-transform      : translate(0,0);
+  transform         : translate(0,0);
+}
+
+100.0% 
+{
+  -webkit-transform : translate(-100%,0);
+  -moz-transform    : translate(-100%,0);
+  -ms-transform     : translate(-100%,0);
+  -o-transform      : translate(-100%,0);
+  transform         : translate(-100%,0);
+}
+
+}
+
+@-o-keyframes marquee
+{
+0.0% 
+{
+  -webkit-transform : translate(0,0);
+  -moz-transform    : translate(0,0);
+  -ms-transform     : translate(0,0);
+  -o-transform      : translate(0,0);
+  transform         : translate(0,0);
+}
+
+100.0% 
+{
+  -webkit-transform : translate(-100%,0);
+  -moz-transform    : translate(-100%,0);
+  -ms-transform     : translate(-100%,0);
+  -o-transform      : translate(-100%,0);
+  transform         : translate(-100%,0);
+}
+
+}
+
+@keyframes marquee
+{
+0.0% 
+{
+  -webkit-transform : translate(0,0);
+  -moz-transform    : translate(0,0);
+  -ms-transform     : translate(0,0);
+  -o-transform      : translate(0,0);
+  transform         : translate(0,0);
+}
+
+100.0% 
+{
+  -webkit-transform : translate(-100%,0);
+  -moz-transform    : translate(-100%,0);
+  -ms-transform     : translate(-100%,0);
+  -o-transform      : translate(-100%,0);
+  transform         : translate(-100%,0);
+}
+
+}
+
+#seek-slider
+{
+  padding-bottom : 5px;
+  padding-top    : 5px;
+  width          : 540px;
+}
+
+#volume
+{
+  left     : 260px;
+  position : absolute;
+  top      : 50px;
+}
+
+#volume-slider
+{
+  left     : 40px;
+  position : absolute;
+  top      : 7px;
+  width    : 250px;
+}
+
+#misc-controls
+{
+  left     : 300px;
+  position : absolute;
+  top      : 135px;
+}
+
+#playlist
+{
+  margin-right : 20px;
+}
+
+#lambda
+{
+  bottom   : 15px;
+  position : absolute;
+  right    : 10px;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */
